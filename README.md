@@ -53,3 +53,70 @@ This motor was selected because it:
 - Is commonly used in robotics projects
 - Is suitable for moving the robot legs
  
+---
+
+## Torque Calculation
+
+A simple torque calculation was performed for one joint.
+
+**Assumptions:**
+
+- Robot mass = **2 kg**
+
+- Gravity = **9.8 m/s²**
+
+- Leg length = **0.05 m**
+
+**Total Force:**
+
+F = 2 × 9.8 ≈ **20 N**
+
+Assuming two legs support the robot while walking:
+
+Force on one leg = **10 N**
+
+**Torque:**
+
+Torque = Force × Distance
+
+Torque = 10 × 0.05
+
+**Torque = 0.5 N·m**
+
+A servo motor with approximately **10 kg·cm** torque is suitable for this design.
+
+---
+
+## Stability and Center of Gravity
+
+The robot has a symmetrical structure, which helps improve its balance.
+
+The battery and electronic components should be placed near the center of the body to keep the center of gravity balanced while walking.
+
+---
+
+## Walking Method
+
+The proposed walking method is the **Trot Gait**
+
+In this walking method:
+
+- The front-left leg moves with the rear-right leg
+
+- The front-right leg moves with the rear-left leg
+
+This provides good balance during movement.
+
+---
+
+## Expected Mechanical Challenges
+
+Some possible mechanical challenges include:
+
+- Keeping the robot balanced while walking
+
+- Selecting motors with enough torque
+
+- Preventing the legs from slipping
+
+- Reducing the overall weight of the robot
