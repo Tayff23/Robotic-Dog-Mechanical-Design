@@ -6,9 +6,9 @@ The goal of this project is to design a simple robot dog that can stand, balance
 ---
 ## Robot Design
 ### Isometric View
-![Isometric View](Image/Isometric.png)
+![Isometric View](Images/Isometric.png)
 ### Side View
-![Side View](Image/side.png)
+![Side View](Images/side.png)
 
 ---
 
@@ -120,3 +120,7 @@ Some possible mechanical challenges include:
 - Preventing the legs from slipping
 
 - Reducing the overall weight of the robot
+
+## Repository Contents
+- **Images/** – Images of the robot design
+- **CAD/** – CAD design file
